@@ -194,9 +194,9 @@ else
 # stage 2: Include $(OBJDIR)/all.dep, expand target all, and get list of dependencies.
 
 # Check if FYPP is available  ===============================================
-ifeq (, $(shell which $(FYPPEXE) 2>/dev/null ))
-  $(error No FYPP submodule available, please read README.md on how to properly download DBCSR)
-endif
+#ifeq (, $(shell which $(FYPPEXE) 2>/dev/null ))
+#  $(error No FYPP submodule available, please read README.md on how to properly download DBCSR)
+#endif
 
 endif
 
